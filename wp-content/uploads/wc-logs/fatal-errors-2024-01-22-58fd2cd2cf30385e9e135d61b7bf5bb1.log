@@ -1,0 +1,2 @@
+2024-01-22T06:25:10+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\book\wp-includes\Requests\src\Transport\Curl.php on line 534
+

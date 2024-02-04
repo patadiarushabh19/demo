@@ -1,0 +1,45 @@
+2024-01-23T17:24:58+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\book\wp-content\plugins\elementor\includes\template-library\sources\local.php:897
+Stack trace:
+#0 C:\xampp\htdocs\book\wp-content\plugins\elementor\includes\template-library\manager.php(477): Elementor\TemplateLibrary\Source_Local->import_template('Footer-Section-...', 'C:\\xampp\\htdocs...')
+#1 [internal function]: Elementor\TemplateLibrary\Manager->import_template(Array)
+#2 C:\xampp\htdocs\book\wp-content\plugins\elementor\includes\template-library\manager.php(595): call_user_func(Array, Array)
+#3 C:\xampp\htdocs\book\wp-content\plugins\elementor\includes\template-library\manager.php(628): Elementor\TemplateLibrary\Manager->handle_ajax_request('import_template', Array)
+#4 [internal function]: Elementor\TemplateLibrary\Manager->Elementor\TemplateLibrary\{closure}(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\book\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Object(Closure), Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\xampp\htdocs\book\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#7 C:\xampp\htdocs\book\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\book\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\book\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#10 {main}
+  thrown in C:\xampp\htdocs\book\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 897
+
+2024-01-23T17:25:09+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\book\wp-content\plugins\elementor\includes\template-library\sources\local.php:897
+Stack trace:
+#0 C:\xampp\htdocs\book\wp-content\plugins\elementor\includes\template-library\manager.php(477): Elementor\TemplateLibrary\Source_Local->import_template('Footer-Section-...', 'C:\\xampp\\htdocs...')
+#1 [internal function]: Elementor\TemplateLibrary\Manager->import_template(Array)
+#2 C:\xampp\htdocs\book\wp-content\plugins\elementor\includes\template-library\manager.php(595): call_user_func(Array, Array)
+#3 C:\xampp\htdocs\book\wp-content\plugins\elementor\includes\template-library\manager.php(628): Elementor\TemplateLibrary\Manager->handle_ajax_request('import_template', Array)
+#4 [internal function]: Elementor\TemplateLibrary\Manager->Elementor\TemplateLibrary\{closure}(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\book\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Object(Closure), Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\xampp\htdocs\book\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#7 C:\xampp\htdocs\book\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\book\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\book\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#10 {main}
+  thrown in C:\xampp\htdocs\book\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 897
+
+2024-01-23T17:25:17+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Error as array in C:\xampp\htdocs\book\wp-content\plugins\elementor\includes\template-library\sources\local.php:897
+Stack trace:
+#0 C:\xampp\htdocs\book\wp-content\plugins\elementor\includes\template-library\manager.php(477): Elementor\TemplateLibrary\Source_Local->import_template('Footer-Section-...', 'C:\\xampp\\htdocs...')
+#1 [internal function]: Elementor\TemplateLibrary\Manager->import_template(Array)
+#2 C:\xampp\htdocs\book\wp-content\plugins\elementor\includes\template-library\manager.php(595): call_user_func(Array, Array)
+#3 C:\xampp\htdocs\book\wp-content\plugins\elementor\includes\template-library\manager.php(628): Elementor\TemplateLibrary\Manager->handle_ajax_request('import_template', Array)
+#4 [internal function]: Elementor\TemplateLibrary\Manager->Elementor\TemplateLibrary\{closure}(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 C:\xampp\htdocs\book\wp-content\plugins\elementor\core\common\modules\ajax\module.php(176): call_user_func(Object(Closure), Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#6 C:\xampp\htdocs\book\wp-includes\class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#7 C:\xampp\htdocs\book\wp-includes\class-wp-hook.php(348): WP_Hook->apply_filters('', Array)
+#8 C:\xampp\htdocs\book\wp-includes\plugin.php(517): WP_Hook->do_action(Array)
+#9 C:\xampp\htdocs\book\wp-admin\admin-ajax.php(188): do_action('wp_ajax_element...')
+#10 {main}
+  thrown in C:\xampp\htdocs\book\wp-content\plugins\elementor\includes\template-library\sources\local.php on line 897
+
